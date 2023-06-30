@@ -30,3 +30,75 @@ li > a {
     text-decoration: none;
     color: #E5E7EB;
 }
+
+.first-row-picture > img {
+    width: 525px;
+    max-height: 200px;
+    margin-right: 150px;
+}
+
+.first-row {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+}
+
+.first-row-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    gap: 10px;
+    margin-left: 150px;
+}
+
+.first-row-text-title {
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.first-row-text-subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 5px 15px;
+    border-color: transparent;
+    max-width: 100px;
+}
+
+.second-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-row-title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 30px;
+}
+
+.second-row-images {
+    display: flex;
+    gap: 10px;
+
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    max-width: 300px;
+}
+
+.image > img {
+    border: solid 3px #3882F6;
+    border-radius: 6px;
+}
